@@ -101,7 +101,7 @@ pub async fn download_depot_downloader() -> Result<()> {
 pub async fn download_generic_stripper() -> Result<()> {
     let client = Client::new();
 
-    let api_url = "https://api.github.com/repos/beat-forge/GenericStripper/releases/latest";
+    let api_url = "https://api.github.com/repos/Aeroluna/GenericStripper/releases/latest";
 
     debug!("Fetching latest release info for GenericStripper");
     let release_info: serde_json::Value = client
